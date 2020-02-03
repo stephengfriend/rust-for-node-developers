@@ -1,11 +1,15 @@
 [package]
 publish = false
 name = "hello-world"
-version = "0.1.0"
-description = "A minimal _Hello world_ example in Rust"
+version = "0.2.0"
+description = "A minimal _Hello world_ with dependencies example in Rust"
 authors = ["Stephen G. Friend <hello@stephengfriend.com>"]
 license = "MIT"
 keywords = ["rust", "node", "hello", "world"]
 homepage = "https://github.com/stephengfriend/rust-hello-world"
 repository = "https://github.com/stephengfriend/rust-hello-world"
 documentation = "https://github.com/stephengfriend/rust-hello-world"
+edition = "2018"
+
+[dependencies]
+rfnd-hello-world = "1.0.1"

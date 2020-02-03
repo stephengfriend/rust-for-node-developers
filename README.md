@@ -1,13 +1,13 @@
 # Hello world
 
-A minimal _Hello world_ example in Rust
+A minimal _Hello world_ with dependencies example in Rust
 
 ### Usage
 
 ```sh
-$ rustc hello-world.rs && ./hello-world
+$ cargo run
 ```
 
 ### Credit
 
-[Hello world!](https://github.com/Mercateo/rust-for-node-developers/blob/master/hello-world/README.md) section from [Rust for Node Developers](https://github.com/Mercateo/rust-for-node-developers) by @Mercateo
+[Package Manager](https://github.com/Mercateo/rust-for-node-developers/blob/master/package-manager/README.md) section from [Rust for Node Developers](https://github.com/Mercateo/rust-for-node-developers) by @Mercateo
